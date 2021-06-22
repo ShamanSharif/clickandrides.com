@@ -1,7 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Sacramento&display=swap");
 *, *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo_text {
+  font-family: "Sacramento", cursive;
 }
 
 .container {
@@ -37,6 +46,17 @@
   display: flex;
   justify-content: space-between;
   padding: 1rem 2rem;
+}
+.navbar__banner {
+  display: flex;
+  flex-direction: row;
+}
+.navbar__banner img {
+  height: 48px;
+}
+.navbar__banner span {
+  font-size: 42px;
+  color: #1F1F1F;
 }
 .navbar__buttons {
   display: flex;
@@ -83,6 +103,8 @@
 .how-to__title {
   display: flex;
   align-self: center;
+  font-weight: 500;
+  color: #4994F3;
 }
 .how-to__cards {
   display: flex;
@@ -101,10 +123,13 @@
 }
 .how-to__cards__card__title {
   text-align: center;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
+  color: #4994F3;
+  font-weight: 500;
 }
 .how-to__cards__card__desc {
   text-align: center;
+  font-weight: 300;
 }
 .how-to__button {
   align-self: center;
@@ -116,14 +141,15 @@
   justify-content: space-evenly;
   padding: 5rem 2rem;
   background-color: #FCFCFC;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #4994F3;
+  border-bottom: 1px solid #FFC602;
 }
 .why-us__title {
   display: flex;
   flex-direction: column;
   align-self: center;
   padding-bottom: 1rem;
+  color: #FFC602;
 }
 .why-us__title__text {
   display: flex;
@@ -134,6 +160,9 @@
   display: flex;
   flex-direction: row;
   align-self: center;
+}
+.why-us__title__branding span {
+  font-size: 36px;
 }
 .why-us__bubbles {
   display: flex;
@@ -146,7 +175,6 @@
   flex-direction: column;
   padding: 3rem 1rem;
   align-self: center;
-  align-items: center;
 }
 .why-us__bubbles__bubble:nth-child(odd) {
   padding-top: 3rem;
@@ -156,7 +184,7 @@
 }
 .why-us__bubbles__bubble__figure img {
   border-radius: 50%;
-  max-width: 100%;
+  width: 100%;
 }
 .why-us__bubbles__bubble__title {
   text-align: center;
@@ -177,7 +205,7 @@
   align-items: center;
 }
 .testimony__title {
-  font-weight: bold;
+  font-weight: 500;
 }
 .testimony__cards {
   display: flex;
@@ -193,8 +221,8 @@
   align-self: center;
   align-items: center;
   max-width: 250px;
-  border: 2px solid seagreen;
-  border-radius: 5px;
+  border: 2px solid #E7E7E7;
+  border-radius: 10px;
 }
 .testimony__cards__card:nth-child(2) {
   padding: 1rem 0;
@@ -207,11 +235,11 @@
 }
 .testimony__cards__card__name {
   text-align: center;
-  font-weight: bold;
+  font-weight: 500;
 }
 .testimony__cards__card__desc {
   text-align: center;
-  font-style: italic;
+  font-weight: 300;
 }
 .testimony__cards__card__comment {
   text-align: center;
@@ -227,13 +255,13 @@
   justify-content: space-evenly;
   padding: 5rem 2rem;
   background-color: #FCFCFC;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
+  border-top: 1px solid #4994F3;
+  border-bottom: 1px solid #FFC602;
   align-items: center;
 }
 .faqs__title {
   color: #4994F3;
-  font-weight: bold;
+  font-weight: 500;
 }
 .faqs__questions {
   display: flex;
@@ -244,7 +272,7 @@
   padding: 3rem;
 }
 .faqs__questions__question__q {
-  font-weight: bold;
+  font-weight: 500;
   color: #4994F3;
 }
 .faqs__questions__question__a {
@@ -281,7 +309,7 @@
 }
 .about-us__about__text__title {
   text-align: right;
-  font-weight: bold;
+  font-weight: 500;
   color: #4994F3;
 }
 .about-us__about__text__desc {

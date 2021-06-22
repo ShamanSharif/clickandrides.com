@@ -2,12 +2,24 @@ $primary_color: #FFC602;
 $secondary-color: #4994F3;
 $light-gray: #FCFCFC;
 $dark-gray: #1F1F1F;
+$border-gray: #E7E7E7;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Sacramento&display=swap');
 
 *, *::before, *::after {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    // font-family: 'Sacramento', cursive;
+}
+
+.logo_text {
+	font-family: 'Sacramento', cursive;
 }
 
 .container {
@@ -47,7 +59,17 @@ $dark-gray: #1F1F1F;
 	padding: 1rem 2rem;
 
 	&__banner {
+		display: flex;
+		flex-direction: row;
 
+		img {
+			height: 48px;
+		}
+
+		span {
+			font-size: 42px;
+			color: $dark-gray;
+		}
 	}
 
 	&__buttons {
@@ -104,6 +126,8 @@ $dark-gray: #1F1F1F;
 	&__title {
 		display: flex;
 		align-self: center;
+		font-weight: 500;
+		color: $secondary-color;
 	}
 
 	&__cards {
@@ -118,19 +142,23 @@ $dark-gray: #1F1F1F;
 			flex-direction: column;
 
 			&__figure {
+
 				img {
-				width: 100%;
-				border-radius: 5%;
+					width: 100%;
+					border-radius: 5%;
 				}
 			}
 
 			&__title {
 				text-align: center;
-				padding: .5rem 0;
+				padding: 1rem 0;
+				color: $secondary-color;
+				font-weight: 500;
 			}
 
 			&__desc {
 				text-align: center;
+				font-weight: 300;
 			}
 		}
 	}
@@ -146,8 +174,8 @@ $dark-gray: #1F1F1F;
 	justify-content: space-evenly;
 	padding: 5rem 2rem;
 	background-color: $light-gray;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid $secondary-color;
+	border-bottom: 1px solid $primary-color;
 
 	&__title {
 
@@ -155,6 +183,7 @@ $dark-gray: #1F1F1F;
 		flex-direction: column;
 		align-self: center;
 		padding-bottom: 1rem;
+		color: $primary-color;
 
 		&__text {
 			display: flex;
@@ -166,6 +195,10 @@ $dark-gray: #1F1F1F;
 			display: flex;
 			flex-direction: row;
 			align-self: center;
+
+			span {
+				font-size: 36px;
+			}
 		}
 	}
 
@@ -180,8 +213,7 @@ $dark-gray: #1F1F1F;
 			flex-direction: column;
 			padding: 3rem 1rem;
 			align-self: center;
-			align-items: center;
-
+			
 			&:nth-child(odd) {
 				padding-top: 3rem;
 			}
@@ -193,7 +225,7 @@ $dark-gray: #1F1F1F;
 			&__figure {
 				img {
 					border-radius: 50%;
-					max-width: 100%;
+					width: 100%;
 				}
 			}
 
@@ -223,7 +255,7 @@ $dark-gray: #1F1F1F;
 	align-items: center;
 
 	&__title {
-		font-weight: bold;
+		font-weight: 500;
 	}
 
 	&__cards {
@@ -240,8 +272,8 @@ $dark-gray: #1F1F1F;
 			align-self: center;
 			align-items: center;
 			max-width: 250px;
-			border: 2px solid seagreen;
-			border-radius: 5px;
+			border: 2px solid $border-gray;
+			border-radius: 10px;
 
 			&:nth-child(2) {
 				padding: 1rem 0;
@@ -258,12 +290,12 @@ $dark-gray: #1F1F1F;
 
 			&__name {
 				text-align: center;
-				font-weight: bold;
+				font-weight: 500;
 			}
 
 			&__desc {
 				text-align: center;
-				font-style: italic;
+				font-weight: 300;
 			}
 
 			&__comment {
@@ -284,13 +316,13 @@ $dark-gray: #1F1F1F;
 	justify-content: space-evenly;
 	padding: 5rem 2rem;
 	background-color: $light-gray;
-	border-top: 1px solid black;
-	border-bottom: 1px solid black;
+	border-top: 1px solid $secondary-color;
+	border-bottom: 1px solid $primary-color;
 	align-items: center;
 
 	&__title {
 		color: $secondary-color;
-		font-weight: bold;
+		font-weight: 500;
 	}
 
 	&__questions {
@@ -302,7 +334,7 @@ $dark-gray: #1F1F1F;
 			padding: 3rem;
 
 			&__q {
-				font-weight: bold;
+				font-weight: 500;
 				color: $secondary-color;
 			}
 
@@ -346,7 +378,7 @@ $dark-gray: #1F1F1F;
 		&__text {
 			&__title {
 				text-align: right;
-				font-weight: bold;
+				font-weight: 500;
 				color: $secondary-color;
 			}
 
