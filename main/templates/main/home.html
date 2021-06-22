@@ -1,0 +1,239 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>clickandrides.com</title>
+	<link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+	<div class="container">
+		<main class="hero">
+			<nav class="navbar">
+				<div class="navbar__banner">
+					<img src="{% static 'images/logo.png' %}" alt="Website Logo">
+				</div>
+				<div class="navbar__buttons">
+					<div class="navbar__buttons__row-one">
+						<div class="navbar__buttons__row-one__tel">+44123456789</div>
+						<div class="navbar__buttons__row-one__socials">
+							<div class="navbar__buttons__row-one__socials__item">
+								<i class="fab fa-facebook"></i>
+							</div>
+							<div class="navbar__buttons__row-one__socials__item">
+								<i class="fab fa-facebook"></i>
+							</div>
+							<div class="navbar__buttons__row-one__socials__item">
+								<i class="fab fa-facebook"></i>
+							</div>
+							<div class="navbar__buttons__row-one__socials__item">
+								<i class="fab fa-facebook"></i>
+							</div>
+						</div>
+					</div>
+					<div class="navbar__buttons__row-two">
+						<div class="navbar__buttons__row-two__link">
+							<a href="#">Home</a>
+						</div>
+						<div class="navbar__buttons__row-two__link">
+							<a href="#">Home</a>
+						</div>
+						<div class="navbar__buttons__row-two__link">
+							<a href="#">Home</a>
+						</div>
+						<div class="navbar__buttons__row-two__link">
+							<a href="#">Home</a>
+						</div>
+					</div>
+				</div>
+			</nav> <!-- End Navbar -->
+			<div class="main-action">
+				<div class="main-action__buttons">
+					<a href="" class="btn btn__primary">Book Now</a>
+					<a href="" class="btn btn__secondary">Learn More</a>
+				</div>
+				<div class="book-now" id="book-now">BOOK</div>
+			</div> <!-- End Main Action Section -->
+		</main> <!-- End Hero Section -->
+		<section class="how-to">
+			<div class="how-to__title">To Book A Ride, Simply Follow These Four Steps</div>
+			<div class="how-to__cards">
+				<div class="how-to__cards__card">
+					<div class="how-to__cards__card__figure">
+						<img src="{% static 'images/card.png' %}" alt="">
+					</div>
+					<div class="how-to__cards__card__title">1. Select Destination</div>
+					<div class="how-to__cards__card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit, Veniam rerum.</div>
+				</div>
+				<div class="how-to__cards__card">
+					<div class="how-to__cards__card__figure">
+						<img src="{% static 'images/card.png' %}" alt="">
+					</div>
+					<div class="how-to__cards__card__title">2. Fill in your persnal form</div>
+					<div class="how-to__cards__card__desc">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt itaque, est quo repudiandae.</div>
+				</div>
+				<div class="how-to__cards__card">
+					<div class="how-to__cards__card__figure">
+						<img src="{% static 'images/card.png' %}" alt="">
+					</div>
+					<div class="how-to__cards__card__title">3. Select Vehicle</div>
+					<div class="how-to__cards__card__desc">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Consectetur illo, aut!</div>
+				</div>
+				<div class="how-to__cards__card">
+					<div class="how-to__cards__card__figure">
+						<img src="{% static 'images/card.png' %}" alt="">
+					</div>
+					<div class="how-to__cards__card__title">4. Choose payment gateway</div>
+					<div class="how-to__cards__card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing, elit. Praesentium, accusantium!</div>
+				</div>
+			</div>
+			<div class="how-to__button">
+				<a href="#" class="btn btn__primary">Book Now</a>
+			</div>
+		</section> <!-- End How To Section -->
+		<section class="why-us">
+			<div class="why-us__title">
+				<div class="why-us__title__text">Why book using</div>
+				<div class="why-us__title__branding">
+					<img src="{% static 'images/logo.png' %}" alt="Website Logo">
+				</div>
+			</div>
+			<div class="why-us__bubbles">
+				<div class="why-us__bubbles__bubble">
+					<div class="why-us__bubbles__bubble__figure">
+						<img src="{% static 'images/shield.png' %}" alt="Shield">
+					</div>
+					<div class="why-us__bubbles__bubble__title">1. Safe & Secure</div>
+					<div class="why-us__bubbles__bubble__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, id.</div>
+				</div>
+				<div class="why-us__bubbles__bubble">
+					<div class="why-us__bubbles__bubble__figure">
+						<img src="{% static 'images/shield.png' %}" alt="Shield">
+					</div>
+					<div class="why-us__bubbles__bubble__title">2. Best Prices</div>
+					<div class="why-us__bubbles__bubble__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga sit, natus ab?</div>
+				</div>
+				<div class="why-us__bubbles__bubble">
+					<div class="why-us__bubbles__bubble__figure">
+						<img src="{% static 'images/shield.png' %}" alt="Shield">
+					</div>
+					<div class="why-us__bubbles__bubble__title">3. Fast & Reliable</div>
+					<div class="why-us__bubbles__bubble__desc">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Labore, ad, voluptatibus?</div>
+				</div>
+				<div class="why-us__bubbles__bubble">
+					<div class="why-us__bubbles__bubble__figure">
+						<img src="{% static 'images/shield.png' %}" alt="Shield">
+					</div>
+					<div class="why-us__bubbles__bubble__title">4. Luxury Choices</div>
+					<div class="why-us__bubbles__bubble__desc">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Repellat unde error ipsum.</div>
+				</div>
+			</div>
+			<div class="why-us__button">
+				<a href="#" class="btn btn__primary">Book Now</a>
+			</div>
+		</section> <!-- End Why Us Section -->
+		<section class="testimony">
+			<div class="testimony__title">Testimony</div>
+			<div class="testimony__cards">
+				<div class="testimony__cards__card">
+					<div class="testimony__cards__card__fig">
+						<img src="{% static 'images/people-1.jpg' %}" alt="">
+					</div>
+					<div class="testimony__cards__card__name">Bai Lu</div>
+					<div class="testimony__cards__card__desc">EVP, Suntime Corp</div>
+					<div class="testimony__cards__card__comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nulla.</div>
+				</div>
+				<div class="testimony__cards__card">
+					<div class="testimony__cards__card__fig">
+						<img src="{% static 'images/people-2.jpg' %}" alt="">
+					</div>
+					<div class="testimony__cards__card__name">Xu Kai</div>
+					<div class="testimony__cards__card__desc">CEO, Koogle.Inc</div>
+					<div class="testimony__cards__card__comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nulla.</div>
+				</div>
+				<div class="testimony__cards__card">
+					<div class="testimony__cards__card__fig">
+						<img src="{% static 'images/people-3.jpg' %}" alt="">
+					</div>
+					<div class="testimony__cards__card__name">Wu Jia Ui</div>
+					<div class="testimony__cards__card__desc">AD, Wahoo.Org</div>
+					<div class="testimony__cards__card__comment">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, nulla.</div>
+				</div>
+			</div>
+			<div class="testimony__button">
+				<a href="#" class="btn btn__primary">Book Now</a>
+			</div>
+		</section> <!-- End Testimony Section -->
+		<section class="faqs">
+			<div class="faqs__title">Frequently Asked Questions</div>
+			<div class="faqs__questions">
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">1. Why do I need to provide my email?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Optio ex dolorem dolorum minima obcaecati architecto praesentium. Obcaecati, maiores dolorum? Earum.</div>
+				</div>
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">2. What about payment options?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque assumenda, vero voluptatum voluptas repudiandae? Odio illum, nulla recusandae quisquam voluptatibus veritatis perferendis totam dolore impedit!</div>
+				</div>
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">3. What about my safety?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Iste dignissimos doloremque asperiores, consectetur itaque, nostrum provident facilis neque nemo labore eius rem.</div>
+				</div>
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">4. Can I book beforehand?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet possimus fuga modi distinctio dolor sunt enim commodi eius pariatur, molestias. Obcaecati aspernatur distinctio officia officiis.</div>
+				</div>
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">5. Are the drivers certified?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta praesentium quam totam facilis tempore doloribus, fuga unde, accusantium amet.</div>
+				</div>
+				<div class="faqs__questions__question">
+					<div class="faqs__questions__question__q">6. What about package delivery?</div>
+					<div class="faqs__questions__question__a">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem saepe, unde aspernatur repellendus dicta ipsam, distinctio fuga provident, consequuntur autem nam, temporibus.</div>
+				</div>
+			</div>
+		</section> <!-- End FAQ Section -->
+		<section class="about-us">
+			<div class="about-us__contact">
+				<div class="about-us__contact__links">
+					<div class="about-us__contact__links__link">
+						<i class="fas fa-map-marker"></i> <a href="#">Lorem Ipsum, Lorem</a>
+					</div>
+					<div class="about-us__contact__links__link">
+						<i class="fas fa-headset"></i> <a href="#">+44 123467890</a>
+					</div>
+					<div class="about-us__contact__links__link">
+						<i class="fas fa-envelope-open"></i> <a href="#">support@clickandrides.com</a>
+					</div>
+				</div>
+			</div>
+			<div class="about-us__about">
+				<div class="about-us__about__text">
+					<div class="about-us__about__text__title">About this company</div>
+					<div class="about-us__about__text__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nobis consectetur reprehenderit explicabo hic pariatur minima obcaecati, maxime eveniet doloremque, magnam, deserunt voluptate! Fuga commodi vitae enim id nam odio?</div>
+				</div>
+				<div class="about-us__about__socials">
+					<div class="about-us__about__socials__link">
+						<i class="fab fa-linkedin-in"></i>
+					</div>
+					<div class="about-us__about__socials__link">
+						<i class="fab fa-linkedin-in"></i>
+					</div>
+					<div class="about-us__about__socials__link">
+						<i class="fab fa-linkedin-in"></i>
+					</div>
+					<div class="about-us__about__socials__link">
+						<i class="fab fa-linkedin-in"></i>
+					</div>
+				</div>
+			</div>
+		</section> <!-- End of About Section -->
+		<footer class="footer">
+			<div class="footer__line">2021 &copy; Copyright clickandrides.com</div>
+			<div class="footer__line">A sister company of City Transfer & Travel LTD</div>
+		</footer> <!-- End of Footer Section -->
+	</div>
+</body>
+</html>
