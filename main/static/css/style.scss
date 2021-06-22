@@ -213,7 +213,7 @@ body {
 			flex-direction: column;
 			padding: 3rem 1rem;
 			align-self: center;
-			
+
 			&:nth-child(odd) {
 				padding-top: 3rem;
 			}
@@ -232,10 +232,13 @@ body {
 			&__title {
 				text-align: center;
 				padding: .5rem 0;
+				color: $primary-color;
+				font-weight: 500;
 			}
 
 			&__desc {
 				text-align: center;
+				font-weight: 300;
 			}
 
 
@@ -255,6 +258,8 @@ body {
 	align-items: center;
 
 	&__title {
+		font-weight: 500;
+		color: $secondary-color;
 		font-weight: 500;
 	}
 
@@ -291,6 +296,7 @@ body {
 			&__name {
 				text-align: center;
 				font-weight: 500;
+				color: $secondary-color;
 			}
 
 			&__desc {
@@ -321,7 +327,7 @@ body {
 	align-items: center;
 
 	&__title {
-		color: $secondary-color;
+		color: $primary-color;
 		font-weight: 500;
 	}
 
@@ -363,6 +369,20 @@ body {
 			flex-direction: column;
 			justify-content: space-evenly;
 			min-height: 20rem;
+
+			&__link {
+				i {
+					font-size: 3rem;
+					color: $secondary-color;
+					padding-right: 1rem;
+				}
+
+				a {
+					text-decoration: none;
+					color: $secondary-color;
+					font-weight: 500;
+				}
+			}
 		}
 	}
 

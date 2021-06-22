@@ -189,9 +189,12 @@ body {
 .why-us__bubbles__bubble__title {
   text-align: center;
   padding: 0.5rem 0;
+  color: #FFC602;
+  font-weight: 500;
 }
 .why-us__bubbles__bubble__desc {
   text-align: center;
+  font-weight: 300;
 }
 .why-us__button {
   align-self: center;
@@ -205,6 +208,8 @@ body {
   align-items: center;
 }
 .testimony__title {
+  font-weight: 500;
+  color: #4994F3;
   font-weight: 500;
 }
 .testimony__cards {
@@ -236,6 +241,7 @@ body {
 .testimony__cards__card__name {
   text-align: center;
   font-weight: 500;
+  color: #4994F3;
 }
 .testimony__cards__card__desc {
   text-align: center;
@@ -260,7 +266,7 @@ body {
   align-items: center;
 }
 .faqs__title {
-  color: #4994F3;
+  color: #FFC602;
   font-weight: 500;
 }
 .faqs__questions {
@@ -297,6 +303,16 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   min-height: 20rem;
+}
+.about-us__contact__links__link i {
+  font-size: 3rem;
+  color: #4994F3;
+  padding-right: 1rem;
+}
+.about-us__contact__links__link a {
+  text-decoration: none;
+  color: #4994F3;
+  font-weight: 500;
 }
 .about-us__about {
   flex: 0 0 50%;
