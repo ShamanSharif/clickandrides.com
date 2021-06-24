@@ -116,6 +116,37 @@ body {
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 7rem 2rem;
+	align-items: flex-end;
+	padding: 0 5rem;
+
+	&__buttons {
+		margin-bottom: 10rem;
+	}
+
+	&__book-now {
+		background-color: transparentize($primary-color, .4);
+		width: 20rem;
+		height: 25rem;
+		border-radius: 10px;
+
+		&__form {
+			padding: 2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: inherit;
+
+			&__text-input {
+				padding: 0.15rem .5rem;
+				border-radius: 10px;
+				border: none;
+			}
+
+			&__btn {
+				border: none;
+			}
+		}
+	}
 }
 
 .how-to {

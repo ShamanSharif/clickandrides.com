@@ -54,7 +54,13 @@
 					<a href="" class="btn btn__primary">Book Now</a>
 					<a href="" class="btn btn__secondary">Learn More</a>
 				</div>
-				<div class="book-now" id="book-now">BOOK</div>
+				<div class="main-action__book-now" id="book-now">
+					<form action="post" class="main-action__book-now__form">
+						{% csrf_token %}
+						{{ form }}
+						<input type="submit" class="main-action__book-now__form__btn btn btn__secondary">
+					</form>
+				</div>
 			</div> <!-- End Main Action Section -->
 		</main> <!-- End Hero Section -->
 		<section class="how-to">

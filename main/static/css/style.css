@@ -93,6 +93,32 @@ body {
   flex-direction: row;
   justify-content: space-between;
   padding: 7rem 2rem;
+  align-items: flex-end;
+  padding: 0 5rem;
+}
+.main-action__buttons {
+  margin-bottom: 10rem;
+}
+.main-action__book-now {
+  background-color: rgba(255, 198, 2, 0.6);
+  width: 20rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+.main-action__book-now__form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: inherit;
+}
+.main-action__book-now__form__text-input {
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  border: none;
+}
+.main-action__book-now__form__btn {
+  border: none;
 }
 
 .how-to {
