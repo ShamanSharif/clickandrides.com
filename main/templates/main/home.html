@@ -58,7 +58,7 @@
 					<form action="post" class="main-action__book-now__form">
 						{% csrf_token %}
 						{{ form }}
-						<input type="submit" class="main-action__book-now__form__btn btn btn__secondary">
+                        <button type="submit" class="main-action__book-now__form__btn btn btn__secondary">Get Quote</button>
 					</form>
 				</div>
 			</div> <!-- End Main Action Section -->
@@ -242,5 +242,7 @@
 			<div class="footer__line">A sister company of City Transfer & Travel LTD</div>
 		</footer> <!-- End of Footer Section -->
 	</div>
+
+    <script src="{% static 'js/booking_helper.js' %}"></script>
 </body>
 </html>

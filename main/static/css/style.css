@@ -92,7 +92,6 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 7rem 2rem;
   align-items: flex-end;
   padding: 0 5rem;
 }
@@ -112,12 +111,16 @@ body {
   justify-content: space-between;
   height: inherit;
 }
+.main-action__book-now__form label {
+  display: none;
+}
 .main-action__book-now__form__text-input {
   padding: 0.15rem 0.5rem;
   border-radius: 10px;
   border: none;
 }
 .main-action__book-now__form__btn {
+  margin: 1rem 0;
   border: none;
 }
 

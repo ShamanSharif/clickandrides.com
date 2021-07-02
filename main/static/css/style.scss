@@ -115,7 +115,7 @@ body {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding: 7rem 2rem;
+	//padding: 7rem 2rem;
 	align-items: flex-end;
 	padding: 0 5rem;
 
@@ -136,6 +136,10 @@ body {
 			justify-content: space-between;
 			height: inherit;
 
+			label {
+				display: none;
+			}
+
 			&__text-input {
 				padding: 0.15rem .5rem;
 				border-radius: 10px;
@@ -143,6 +147,7 @@ body {
 			}
 
 			&__btn {
+				margin: 1rem 0;
 				border: none;
 			}
 		}
